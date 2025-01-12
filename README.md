@@ -19,7 +19,7 @@ Before you begin, ensure you have met the following requirements:
 
 Follow these steps to run the project locally.
 
-### 1. Clone the repository
+### 1. Clone the repository or download the ZIP file
 ```bash
 git clone https://github.com/xaalofficial/bookster.git 
 ```
@@ -38,15 +38,30 @@ npm install
 npm run dev
 ```
 ## Folder Structure
+
 Here’s a brief overview of the key folders and files in the project:
 
-app/: Contains the Next.js pages and layout components.
-components/: Contains reusable React components such as BookmarkForm, BookmarkItem, and BookmarkList.
-public/: Contains static files like images and icons.
-next.config.mjs: The Next.js configuration file.
-tailwind.config.ts: Tailwind CSS configuration file.
-tsconfig.json: TypeScript configuration file.
-package.json: Contains project dependencies and scripts.
+- `app/`:  
+  Contains the Next.js pages and layout components.
+
+- `components/`:  
+  Contains reusable React components such as `BookmarkForm`, `BookmarkItem`, and `BookmarkList`.
+
+- `public/`:  
+  Contains static files like images and icons.
+
+- `next.config.mjs`:  
+  The Next.js configuration file.
+
+- `tailwind.config.ts`:  
+  Tailwind CSS configuration file.
+
+- `tsconfig.json`:  
+  TypeScript configuration file.
+
+- `package.json`:  
+  Contains project dependencies and scripts.
+
 
 ## Troubleshooting
 If you encounter issues running the project, ensure the following:
